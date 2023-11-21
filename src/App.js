@@ -1,11 +1,13 @@
 import './App.css';
-import WordCloudComponent from './WordCloudComponent';
+import FaceTracker from './Components/FaceTracker';
+import WordCloudComponent from './Components/WordCloudComponent';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <WordCloudComponent/>
+        <FaceTracker/>
         <br/>
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>

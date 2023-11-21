@@ -1,0 +1,60 @@
+.face-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.face {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eye {
+  width: 90px;
+  height: 90px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+}
+
+.left-eye {
+  left: 20%;
+}
+
+.right-eye {
+  right: 20%;
+}
+
+.pupil {
+  width: 36px;
+  height: 36px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Existing CSS styles remain unchanged */
+.yellow-face .smile {
+  width: 100px; /* Adjust the smile's width */
+  height: 30px; /* Adjust the smile's height */
+  border: 2px solid black; /* Styling for the smile */
+  border-radius: 100px/50px; /* Curved border for smile shape */
+  position: absolute;
+  bottom: 60px; /* Adjust the position of the smile */
+  left: calc(50% - 50px); /* Position the smile horizontally */
+}
+
+.yellow-face .face {
+  background-color: rgb(226, 163, 45); /* Set the face color to yellow */
+}

@@ -38,7 +38,7 @@ const WordCloudComponent = () => {
 
   return (
     <div>
-      <div style={{ width: '500px', height: '300px' }}>
+      <div style={{ width: '500px', height: '400px' }}>
         <ReactWordcloud words={words} options={options} />
       </div>
       <div>
@@ -47,7 +47,7 @@ const WordCloudComponent = () => {
           value={newWord}
           onChange={handleInputChange}
           onKeyDown={handleKeyPress}
-          placeholder="Enter a new word"
+          placeholder="Enter a word!"
         />
         <button onClick={addWord}>Add Word</button>
       </div>
